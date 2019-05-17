@@ -1,0 +1,15 @@
+{
+  "name": "bug-vuepress",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src && cp CNAME docs/CNAME"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.0.0-alpha.48",
+    "@vuepress/plugin-search": "^1.0.0-alpha.48",
+    "vuepress": "^1.0.0-alpha.48"
+  }
+}
